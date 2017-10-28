@@ -1,0 +1,120 @@
+body {
+   background-color: #888;
+}
+
+h1 {
+   text-align: center;
+   text-shadow: 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  border: 0;
+  height: 5px;
+  width: 80%;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+a {
+   color: #722872;
+}
+
+a:hover {
+   color: #722872;
+}
+
+.navbar-default {
+   background-color: #722872;
+}
+
+div ul li a {
+   color: white !important;
+}
+
+div ul li a:hover {
+   background-color: white !important;
+   color: #722872 !important;
+}
+
+.navbar-brand:hover {
+   transform: scale(.7,.7);
+}
+
+main section#about {
+   display: flex;
+   justify-content: space-around;
+   background-color: #aaa;
+   color: #fff;
+   padding: 150px 10% 200px 50px;
+   align-content: space-around;
+   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+
+.myimage {
+   border-width: none;
+   border-style: solid;
+   border-color: none;
+   border-radius: 50%;
+   width: 75%;
+   height: 75%;
+   position: sticky;
+   padding-left: 20%;
+}
+
+.thumbnail img {
+   width: 100%;
+   height: 250px;
+}
+
+main section#portfolio {
+   display: block;
+   justify-content: space-around;
+   background-color: #fff;
+   color: #888;
+   padding: 10%;
+   align-content: space-around;
+   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+main section#contact {
+   display: block;
+   justify-content: space-around;
+   background-color: #fff;
+   color: #888;
+   padding: 50px 10% 2% 50px;
+   align-content: space-around;
+   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+div#footer {
+   display: block;
+   justify-content: space-around;
+   background-color: #aaa;
+   color: #fff;
+   padding: 50px 10% 100px 50px;
+   align-content: space-around;
+   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+
+div#footer2 {
+   display: block;
+   justify-content: space-around;
+   background-color: #722872;
+   color: #fff;
+   padding: 25px 10% 25px 50px;
+   align-content: space-around;
+   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   border-top: 1px solid white;
+   font-size: 150%;
+}
+
+.social-links:hover {
+   background-color: white;
+   border: 1px solid white;
+   border-radius: 50%;
+}
